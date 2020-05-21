@@ -348,8 +348,6 @@ xgb_model$results
 
 xgb_model$bestTune
 
-varImpPlot(xgb_model)
-
 #Predicting values
 prediction <- predict(xgb_model, newdata=data_test)
 
